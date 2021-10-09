@@ -10,7 +10,7 @@ export default function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/" exact component={Hello} />
+        <Route path="/" exact component={VideoPage} />
         <Route path="/hello" component={Hello} />
         <Route path="/test" exact component={Test} />
         <Route path="/video" exact component={VideoPage} />

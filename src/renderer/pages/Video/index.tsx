@@ -360,9 +360,9 @@ const VideoPage: React.FC = () => {
       >
         Download Snapshot
       </button>
-      <button type="button" id="captureScreen" onClick={() => captureScreen()}>
+      {/* <button type="button" id="captureScreen" onClick={() => captureScreen()}>
         Capture Screen
-      </button>
+      </button> */}
       <div
         style={{
           width: '50%',
