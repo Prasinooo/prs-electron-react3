@@ -10,6 +10,8 @@ const Hello: React.FC = () => {
       </div>
       <h1>electron-react-boilerplate</h1>
       <Link to="/test">Test</Link>
+      <Link to="/video">Video</Link>
+      <Link to="/audio">Audio</Link>
 
       <div className="Hello">
         <a
